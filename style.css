@@ -47,7 +47,7 @@ body{
     color: var(--Grayish-Blue);
     text-align: center;
     font-size: 0.94rem;
-    width: 18rem;
+    width: 20rem;
     line-height: 1.5em;
     margin-bottom: 3rem;
     margin-top: -2rem;
@@ -106,7 +106,7 @@ article:first-child, .heading-2{
     text-align: center;
     margin-bottom: 1.5rem;
 }
-article:first-child, .decription-2{
+article:first-child, .description-2{
     color: var(--Grayish-Blue);
     text-align: center;
     margin-left: 2.3rem;
@@ -154,8 +154,9 @@ article:last-child{
 article:last-child, .heading-3{
     color: var(--Dark-Grayish-Blue);
     text-align: center;
-    font-size: 1.9rem;
-    width: 24rem;
+    font-size: 1.7rem;
+    width: 18rem;
+    margin-left: 3rem;
     margin-bottom: 1.5rem;
 }
 article:last-child, .heading-4{
@@ -234,10 +235,10 @@ article:last-child, .description-5{
     color: var(--Grayish-Blue);
     text-align: center;
     font-size: 1rem;
-    width: 19.1rem;
+    width: 18.1rem;
     line-height: 1.5em;
     margin-bottom: 3.5rem;
-    margin-left: 2.3rem;
+    margin-left: 2.8rem;
 }
 
 
@@ -245,8 +246,8 @@ article:last-child, .description-5{
     display: flex;
     flex-direction: column;
     margin-bottom: 9rem;
-    width: 83%;
-    margin-left: 2rem;
+    width: 80%;
+    margin-left: 2.5rem;
 }
 
 footer{
@@ -280,7 +281,7 @@ ul li:hover{
 
 /* DESKTOP RESPOSIVENESS STARTS FROM HERE */
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
     body{
         display: flex;
         justify-content: center;
@@ -292,8 +293,108 @@ ul li:hover{
         background-size: contain;
     }
 
+    .heading{
+        font-size: 3.5rem;
+    }
     .paragraph{
-        width: 40rem;
-        font-size: 1.1rem;
+        width: 60rem;
+        font-size: 1.7rem;
+    }
+
+    .buttons{
+        display: block;
+        margin-left: 30rem;
+    }
+    .ios-btn{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .mac-btn{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    article:first-child, .heading-2{
+        font-size: 3rem;
+    }
+    article:first-child, .description-2{
+        font-size: 1.7rem;
+        width: 65rem;
+    }
+
+    article:first-child, .pc-image{
+        float: left;
+        margin-left: -15rem;
+        margin-top: 3rem;
+    }
+
+    article:first-child, .service-1, .service-2, .service-3{
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-right: 12.5rem;
+    }
+    article:first-child, .par-1, .par-2, .par-3{
+        text-align: left;
+        font-size: 1.4rem;
+        width: 30rem;
+        margin-left: 5rem;
+    }
+    article:first-child, .service-2{
+        margin-right: 13.6rem;
+    }
+    article:first-child, .service-3{
+        margin-left: 4rem;
+    }
+
+    article:last-child, .heading-3{
+        font-size: 3rem;
+        width: 70rem;
+    }
+    article:last-child, .description-3{
+        font-size: 2rem;
+        width: 65rem;
+    }
+
+    article:last-child, .heading-4{
+        font-size: 3.3rem;
+        width: 65rem;
+    }
+    article:last-child, .description-4{
+       font-size: 1.9rem;
+       width: 50rem;
+    }
+
+    article:last-child, .service-4{
+        transform: translateX(-200%);
+    }
+    article:last-child, .par-4{
+        transform: translateX(-122%);
+    }
+
+    article:last-child, .service-5{
+        transform: translateY(-250%);
+    }
+    article:last-child, .par-5{
+        transform: translateY(-470%);
+    }
+
+
+    article:last-child, .companies, .google, .ibm, .microsoft, .hp, .vector{
+        display: inline;
+        margin-left: 3.5rem;
+    }
+
+    article:last-child, .heading-5{
+        font-size: 3rem;
+        width: 65rem;
+    }
+    article:last-child, .description-5{
+        font-size: 1.7rem;
+        width: 65rem;
+    }
+
+    .end-buttons{
+        display: block;
+        margin-left: 20rem;
     }
 }
