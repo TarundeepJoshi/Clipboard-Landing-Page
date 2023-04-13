@@ -364,21 +364,6 @@ ul li:hover{
        width: 50rem;
     }
 
-    article:last-child, .service-4{
-        transform: translateX(-200%);
-    }
-    article:last-child, .par-4{
-        transform: translateX(-122%);
-    }
-
-    article:last-child, .service-5{
-        transform: translateY(-250%);
-    }
-    article:last-child, .par-5{
-        transform: translateY(-470%);
-    }
-
-
     article:last-child, .companies, .google, .ibm, .microsoft, .hp, .vector{
         display: inline;
         margin-left: 3.5rem;
